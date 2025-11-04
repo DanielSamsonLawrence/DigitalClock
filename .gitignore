@@ -1,0 +1,48 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+ENV/
+.venv/
+
+# macOS system files
+.DS_Store
+
+# FastAPI / Uvicorn logs
+*.log
+
+# IDE and editor folders
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Build and packaging
+build/
+dist/
+*.egg-info/
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# pytest and coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.xml
+.cache/
+
+# Environment files
+.env.local
+.env.production
+.env.development
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
